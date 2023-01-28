@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "module": "commonjs",   
+    "target": "ESNEXT",                  /* Skip type checking .d.ts files that are included with TypeScript. */
+    "skipLibCheck": true,  
+    "esModuleInterop": true,
+    "strictNullChecks": true   ,
+    "exactOptionalPropertyTypes": true,
+    "strictPropertyInitialization": true                             /* Skip type checking all .d.ts files. */
+  }
+}
