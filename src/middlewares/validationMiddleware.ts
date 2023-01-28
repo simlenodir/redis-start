@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { ObjectSchema } from "joi";
-import { ErrorHandler } from "./exception/errorHandler";
+import { ErrorHandler } from "../exception/errorHandler";
 
 export default (schema: ObjectSchema) => {
     return ( req: Request, res: Response,  next: NextFunction) => {
