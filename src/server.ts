@@ -1,5 +1,6 @@
 import express, { Application } from "express"
 import dotenv from "dotenv"
+import dataSource from "./configs/orm.config"
 dotenv.config()
 
 const main = async(): Promise<void> => {
@@ -9,7 +10,7 @@ const main = async(): Promise<void> => {
 
     app.use(express.json())
     try {
-        
+        dataSource.initialize().then((): void => console.log('Connected'))
     } catch (error) {
         console.log(error);
     }finally{

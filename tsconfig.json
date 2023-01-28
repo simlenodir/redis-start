@@ -1,18 +1,19 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "rootDir": "./src",
-    "outDir": "./dist",
     "strict": true,
-    "module": "commonjs",   
-    "target": "ESNEXT",                  /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true,  
-    "esModuleInterop": true,
-    "strictNullChecks": true   ,
-    "exactOptionalPropertyTypes": true,
-    "strictPropertyInitialization": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true                             /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "allowJs": true,
+    "module": "commonjs",
+    "target": "ESNEXT",
+     "allowSyntheticDefaultImports": true,
+     "esModuleInterop": true,
+     "experimentalDecorators": true,
+     "strictNullChecks": true,
+     "emitDecoratorMetadata": true,
+     "exactOptionalPropertyTypes": true,
+     "strictPropertyInitialization": false 
   }
 }
+
